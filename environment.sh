@@ -15,7 +15,7 @@ echo "Loading environment for hgv27681 deployment ..."
 
 export EC_CLI_BACKEND="ARGOCD"
 # the argocd project and root app
-export EC_TARGET=hgv27681-beamline/hgv27681
+export EC_TARGET=hgv27681/hgv27681
 # the git repo for this project
 export EC_SERVICES_REPO=https://github.com/gilesknap/hgv27681-services
 # declare your centralised log server Web UI
