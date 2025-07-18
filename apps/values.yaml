@@ -10,7 +10,7 @@
 
 project: hgv27681
 destination:
-  name: hgv27681
+  name: argus
   namespace: hgv27681
 source:
   repoURL: https://github.com/gilesknap/hgv27681-services

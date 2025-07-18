@@ -3,7 +3,7 @@ _commit: 4.4.0
 _src_path: https://github.com/epics-containers/deployment-template-argocd
 argocd_cluster: argus
 argocd_server: argocd.diamond.ac.uk
-cluster_name: hgv27681
+cluster_name: argus
 cluster_namespace: hgv27681
 deployment_repo: https://github.com/gilesknap/hgv27681-deployment
 description: hgv27681 IOC Instances and Services Deployment Repository for Argo CD
