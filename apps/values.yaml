@@ -43,3 +43,6 @@ ec_services:
   #   hgv27681-ea-test-01:
   #     enabled: true
   #     targetRevision: main
+  bl01t-gateways:
+    enabled: true
+    targetRevision: main
