@@ -45,7 +45,7 @@ ec_services:
   #     targetRevision: main
   bl01t-gateways:
     enabled: true
-    targetRevision: gateway-dev
+    targetRevision: main
   bl01t-mo-ioc-01:
     enabled: true
     targetRevision: main
