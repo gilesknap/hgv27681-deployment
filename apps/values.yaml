@@ -48,4 +48,4 @@ ec_services:
     targetRevision: main
   bl01t-mo-sim-01:
     enabled: true
-    targetRevision: main
+    targetRevision: 1.0.0
