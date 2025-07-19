@@ -28,7 +28,7 @@ services:
 
 ec_services:
   bl01t-di-cam-01:
-    enabled: false
+    enabled: true
     targetRevision: 1.0.0
   bl01t-gateways:
     enabled: true
