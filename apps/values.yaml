@@ -45,4 +45,4 @@ ec_services:
   #     targetRevision: main
   bl01t-gateways:
     enabled: true
-    targetRevision: main
+    targetRevision: gateway-dev
