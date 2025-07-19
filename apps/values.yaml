@@ -46,3 +46,6 @@ ec_services:
   bl01t-gateways:
     enabled: true
     targetRevision: main
+  bl01t-mo-sim-01:
+    enabled: true
+    targetRevision: main
