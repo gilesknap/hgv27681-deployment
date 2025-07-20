@@ -35,4 +35,4 @@ ec_services:
     targetRevision: infn-service-test
   bl01t-mo-sim-01:
     enabled: true
-    targetRevision: 1.0.0
+    targetRevision: infn-service-test
