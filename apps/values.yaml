@@ -29,7 +29,7 @@ services:
 ec_services:
   bl01t-di-cam-01:
     enabled: true
-    targetRevision: 1.0.0
+    targetRevision: infn-service-test
   bl01t-gateways:
     enabled: true
     targetRevision: 1.0.0
