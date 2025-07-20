@@ -23,19 +23,11 @@ export EC_LOG_URL=''
 
 #### SECTION 2. Install ec #####################################################
 
-# check if epics-containers-cli (ec command) is installed
-if ! ec --version &> /dev/null; then
-    echo "ERROR: Please set up a virtual environment and: 'pip install edge-containers-cli'"
-    return 1
-fi
-
-# enable shell completion for ec commands
-source <(ec --show-completion ${SHELL})
+module load ec/p47
+export EC_SERVICES_REPO=https://github.com/gilesknap/hgv27681-services
+export EC_TARGET=hgv27681/hgv27681
 
 #### SECTION 3. Configure Argocd Server ###################################
-
-# TODO add commands here to enable argocd cli
-argocd login argocd.diamond.ac.uk --grpc-web --sso
 
 # enable shell completion for k8s tools
 if [ -n "$ZSH_VERSION" ]; then SHELL=zsh; fi
