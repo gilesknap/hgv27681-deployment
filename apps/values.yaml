@@ -32,7 +32,7 @@ ec_services:
     targetRevision: infn-service-test
   bl01t-gateways:
     enabled: true
-    targetRevision: infn-service-test
+    targetRevision: gateway-revamp
   bl01t-mo-sim-01:
     enabled: true
     targetRevision: infn-service-test
