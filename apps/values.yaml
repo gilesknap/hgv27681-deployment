@@ -35,4 +35,4 @@ ec_services:
     targetRevision: gateway-revamp
   bl01t-mo-sim-01:
     enabled: true
-    targetRevision: infn-service-test
+    targetRevision: gateway-revamp
