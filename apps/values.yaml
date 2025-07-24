@@ -29,10 +29,7 @@ services:
 ec_services:
   bl01t-di-cam-01:
     enabled: true
-    targetRevision: infn-service-test
   bl01t-gateways:
     enabled: true
-    targetRevision: gateway-revamp
   bl01t-mo-sim-01:
     enabled: true
-    targetRevision: gateway-revamp
