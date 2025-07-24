@@ -29,6 +29,7 @@ services:
 ec_services:
   bl01t-di-cam-01:
     enabled: true
+    targetRevision: tidy-for-docs
   bl01t-gateways:
     enabled: true
   bl01t-mo-sim-01:
