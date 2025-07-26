@@ -30,7 +30,7 @@ ec_services:
   bl01t-di-cam-01:
     enabled: true
     targetRevision: tidy-for-docs
-  bl01t-gateways:
+  t01-gateways:
     enabled: true
     targetRevision: tidy-for-docs
   bl01t-mo-sim-01:
